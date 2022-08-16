@@ -1,0 +1,24 @@
+куда добавить файлик, чтобы он автоматически запускался при запуске винды:
+https://question-it.com/questions/2989400/kak-sdelat-tak-chtoby-fajl-python-zapuskalsja-avtomaticheski-pri-otkrytii-windows#:~:text=Откройте%20папку%20автозагрузки%2C%20нажав%20Win,него%20было%20всплывающее%20окно%20терминала
+
+как написать .bat (для cmd) файлик:
+https://windows-school.ru/blog/komadnyj_fajl_v_windows_10/2020-06-21-665
+
+path = ["D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py"]
