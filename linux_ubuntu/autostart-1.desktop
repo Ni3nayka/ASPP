@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Link
+Icon=mate-panel-launcher
+Icon[ru]=mate-panel-launcher
+Name[ru]=autostart
+URL=/home/ni3mayka/.config/autostart
+Name=autostart
