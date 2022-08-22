@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name = hello1
+Type = Application
+Exec = ./hello1.sh
+Terminal = true
