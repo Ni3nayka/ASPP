@@ -1,7 +1,7 @@
 '''
 author: Egor Bakay <egor_bakay@inbox.ru>
 write:  august 2022
-modify: august 2022
+modify: september 2022
 '''
 
 import subprocess # cmd
@@ -17,6 +17,27 @@ path = ["D:/SERVER/cache/test.py",
         "D:/SERVER/operation/SuCCess/TelBotMain.py",
         "D:/SERVER/operation/box_distributor/TelBotMain.py",
         "D:/SERVER/cache/test.py"]
+
+'''
+path = ["D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py",
+        "D:/SERVER/cache/test.py"]
+'''
 
 
 
