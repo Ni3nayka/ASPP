@@ -35,7 +35,8 @@ class StartServer(Thread):
         global FLAG
         FLAG = 1
         if platform.upper().find("LINUX")>-1:
-            subprocess.run("python3 " + PATH)
+            subprocess.run(["python3",PATH])
+            # subprocess.run("python3 " + PATH) # linux - gavno
         else: #if platform.upper().find("WIN")>-1:
             subprocess.run("python " + PATH)
         FLAG = 0
@@ -44,7 +45,7 @@ now = datetime.now()
 
 while 1:
     t = time()
-    print("===> START SERVER: " + NAME)
+    print("===> START SERVER (" + now.strftime("%H:%M:%S") + "): " + NAME)
     a = StartServer()
     a.start()
     while FLAG: pass
