@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Icon=mate-panel-launcher
+Icon[ru]=mate-panel-launcher
+Name[ru]=START_SERVER
+Exec=python3 /home/ni3mayka/Документы/GitHub/ASPP/linux_ubuntu/SERVER_MAIN.py
+Name=test
