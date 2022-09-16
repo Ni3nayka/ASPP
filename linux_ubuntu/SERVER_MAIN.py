@@ -79,7 +79,10 @@ class StartServer(Thread):
                 print("===> ERROR and restart (" + real_time() + "): " + self.python_path)
                 sleep(sleep_after_restart)
             self.timer = time()
-            subprocess.run(["python3",self.python_path_basic])
+            #subprocess.run(["python3",self.python_path_basic])
+            #subprocess.call('python3 test.py', shell=True, cwd='/home/ni3mayka/Документы/GitHub/ASPP/universal/') 
+            subprocess.call(self.python_main, shell=True, cwd=self.python_path_folder) 
+            #print("===",self.python_path_basic,"===",self.python_path,"===",self.python_path_folder,"===",self.python_main)
             
         print("===> FATAL ERROR (" + real_time() + "): " + self.python_path)
 
