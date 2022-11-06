@@ -56,7 +56,7 @@ file.close()
 
 def real_time():
     now = datetime.now()
-    return now.strftime("%H:%M:%S")
+    return now.strftime("%Y.%m.%d - %H:%M:%S")
 
 class StartServer(Thread):
     
